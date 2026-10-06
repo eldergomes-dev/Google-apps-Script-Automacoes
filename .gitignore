@@ -1,0 +1,24 @@
+# Configurações do Clasp e credenciais do Google Apps Script
+.clasp.json
+.claspignore
+creds.json
+credentials.json
+client_secret*.json
+
+# Dependências do Node.js (caso utilize bibliotecas externas locais)
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Variáveis de ambiente e dados sensíveis
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# Arquivos de sistema e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
